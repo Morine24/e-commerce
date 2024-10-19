@@ -1,0 +1,50 @@
+.nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9db ;
+    position: sticky;
+    
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+.nav > .ul
+{
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    transform: translateX(150px);
+    font-size: large;
+    list-style-type: none;
+    
+} 
+.nav > .ul> li:hover
+{
+    text-decoration-line: underline;
+    transition: all ease-in-out 0.5s;
+    background-color: rgb(248, 238, 238);
+    
+}
+.nav> .orange
+{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 1rem;
+
+}
+.nav> .orange> p{
+    text-transform: uppercase;
+}
+.button
+{
+    background-color: orangered;
+    color: white;
+    padding: 6px;
+    transform: translateX(-40px);
+}
